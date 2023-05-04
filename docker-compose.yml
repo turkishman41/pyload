@@ -13,6 +13,6 @@ services:
       - /path/to/appdata/config:/config
       - /root/data/pyload:/downloads
     ports:
-      - 501:501 # Webinterface
-      - 960:906 # Click 'N' Load
+      - 8000:8000 # Webinterface
+      - 9666:9666 # Click 'N' Load
     restart: unless-stopped
