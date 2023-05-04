@@ -3,7 +3,7 @@ version: '2'
 services:
   pyload:
     image: pyload
-    build: <REPODIR>
+    build: latest
     container_name: pyload
     environment:
       - PUID=1000
@@ -14,5 +14,5 @@ services:
       - /root/data/pyload:/downloads
     ports:
       - 501:501 # Webinterface
-      - 9666:9666 # Click 'N' Load
+      - 960:906 # Click 'N' Load
     restart: unless-stopped
