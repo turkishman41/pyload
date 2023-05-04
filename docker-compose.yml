@@ -3,7 +3,7 @@ version: '2'
 services:
   pyload:
     image: pyload
-    build: latest
+    build: pyload/pyload:alpine
     container_name: pyload
     environment:
       - PUID=1000
