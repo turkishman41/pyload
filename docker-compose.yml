@@ -3,7 +3,7 @@ version: '2'
 services:
   pyload:
     image: pyload
-    build: /data/pyload
+    build: /root/pyload
     container_name: pyload
     environment:
       - PUID=1000
